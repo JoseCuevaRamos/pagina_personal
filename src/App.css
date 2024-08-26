@@ -40,12 +40,4 @@ body{
     background: #626970;
   }
 
-  .navbar {
-    position: relative;
-    z-index: 1;
-  }
   
-  .hero-section, .projects, .education, .footer, .project-details {
-    position: relative;
-    z-index: 1;
-  }

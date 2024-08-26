@@ -38,6 +38,18 @@ const Projects = ({openModal,setOpenModal}) => {
             :
             <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
           }
+          <Divider />
+          {toggle === 'data science' ?
+            <ToggleButton active value="data science" onClick={() => setToggle('data science')}>DATA SCIENCE</ToggleButton>
+            :
+            <ToggleButton value="data science" onClick={() => setToggle('data science')}>DATA SCIENCE</ToggleButton>
+          }
+          <Divider />
+          {toggle === 'cloud' ?
+            <ToggleButton active value="cloud" onClick={() => setToggle('cloud')}>CLOUD</ToggleButton>
+            :
+            <ToggleButton value="cloud" onClick={() => setToggle('cloud')}>CLOUD</ToggleButton>
+          }
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === 'all' && projects

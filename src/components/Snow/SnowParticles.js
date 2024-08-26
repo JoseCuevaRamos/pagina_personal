@@ -5,9 +5,11 @@ import './Snow.css'
 
 export const SnowParticles = () => {
   return (
-    <div className="snow-particles-container">
-      <Particles params={configuracionsnow} />
-    </div>
+    <Particles 
+    
+    params={configuracionsnow}>
+
+    </Particles>
   )
 }
 export default SnowParticles
