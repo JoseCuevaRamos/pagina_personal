@@ -6,7 +6,7 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "I am a Computer Engineering student with a focus on web application development and data science. Motivated and versatile, I am eager to take on new challenges and dedicated to delivering high-quality results.With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "Soy estudiante de Ingeniería Informática con enfoque en desarrollo de aplicaciones web y ciencia de datos. Motivado y versátil, estoy listo para asumir nuevos desafíos y comprometido a ofrecer resultados de alta calidad. Con una actitud positiva y una mentalidad de crecimiento, estoy preparado para contribuir significativamente y alcanzar grandes logros.",
   github: "https://github.com/JoseCuevaRamos",
   resume:
     "https://docs.google.com/document/d/1Kf__2NhL5xQxKiMvo4XGA65SBucEHV5_/edit?usp=sharing&ouid=110520822831588325708&rtpof=true&sd=true",
@@ -16,15 +16,14 @@ export const Bio = {
   facebook: "#",
 };
 
-
 export const projects = [
 
   {
     id: 0,
-    title: "AWS Academy Project",
-    date: "June 2024",
+    title: "Proyecto de AWS Academy",
+    date: "Junio 2024",
     description:
-      "The objective of this project was to provide students with a deep and practical understanding of Amazon DynamoDB, a fully managed NoSQL database service. Students learned to work with DynamoDB, including creating and managing tables, calculating read and write capacity units, using secondary indexes, setting up streams and global tables, and performing backups and restores. The project emphasized hands-on experience to ensure students gained comprehensive skills in managing and optimizing DynamoDB for various applications.",
+      "El objetivo de este proyecto fue proporcionar a los estudiantes un conocimiento profundo y práctico de Amazon DynamoDB, un servicio de base de datos NoSQL totalmente administrado. Se trabajó con la creación y gestión de tablas, cálculo de unidades de lectura y escritura, índices secundarios, configuración de flujos y tablas globales, así como copias de seguridad y restauraciones.",
     image:
       "https://logowik.com/content/uploads/images/aws-amazon-web-services.jpg",
     tags: [
@@ -36,52 +35,114 @@ export const projects = [
       "Python",
       "Boto3",
       "EC2",
-      
     ],
     category: "cloud",
     github: "https://github.com/JoseCuevaRamos/Proyecto_AWS",
     webapp: "https://github.com/JoseCuevaRamos/Proyecto_AWS",
-    member: [
-      {
-        name: "Jose Cueva",
-        img: "https://raw.githubusercontent.com/JoseCuevaRamos/pagina_personal/6598ef37a566b4531b107b7cb5a2d1b955ee4625/src/images/EHeroImage.jpg",
-        linkedin: "https://www.linkedin.com/in/jos%C3%A9-nilson-cueva-ramos-514032310/",
-        github: "https://github.com/JoseCuevaRamos",
-      },
-      {
-        name: "Josue Florian",
-        img: "https://media.licdn.com/dms/image/D4D03AQHFV1QynTDX4A/profile-displayphoto-shrink_200_200/0/1718255273190?e=1728518400&v=beta&t=OQt-iRP9l5UcXHP8rrhsfS0Ho6ActlPVgCeSU9ZVmSE ",
-        linkedin: "https://www.linkedin.com/in/josué-florián-b2029a27a/ ",
-        github: "https://github.com/JosueFlorian17",
-      },
-  ]
   },
-
 
   {
     id: 1,
-    title: "Alura Text Encryptor",
-    date: "July 2024",
+    title: "Sistema de Compras con Carrito",
+    date: "Julio 2024",
     description:
-      "I developed a web application that enables users to encrypt and decrypt text using JavaScript, HTML, and CSS. The application provides a user-friendly interface designed with Figma, allowing for seamless interaction. Users can input text, choose an encryption method, and view the encrypted or decrypted output in real-time. The application leverages JavaScript for the core encryption and decryption functionalities, ensuring data security and privacy.",
+      "Desarrollé una API RESTful en Java con Spring Boot, PostgreSQL y JPA (Hibernate) para gestionar un sistema de compras en línea. Se implementaron funcionalidades como gestión de productos, usuarios, carritos de compra y pedidos, asegurando una experiencia fluida para los clientes. Se integró autenticación y autorización con JWT para proteger los endpoints.",
     image:
-      "https://github.com/user-attachments/assets/693bf035-1f99-482f-9ac6-210904b0a5cf",
+      "https://img.freepik.com/vector-premium/carro-carrito-compra-que-contiene-mercancias-emoticon-dibujos-animados-dibujo-icono-doodle-ilustracion-vectorial_10606-1263.jpg",
     tags: [
-      "JavaScript",
-      "HTML",
-      "CSS",
-      "Figma",
+      "Java",
+      "Spring Boot",
+      "PostgreSQL",
+      "JPA",
+      "JWT",
+      "REST API",
     ],
     category: "web app",
-    github: "https://github.com/JoseCuevaRamos/Alura_C1_encriptador",
-    webapp: "https://josecuevaramos.github.io/Alura_C1_encriptador/",
+    github: "https://github.com/JoseCuevaRamos/Api-Carro-de-Compras",
+    webapp: "#",
   },
+
   {
     id: 2,
-    title: "Optimized Scheduling Application Using Genetic Algorithms",
-    date: "May 2024-Jun 2024",
+    title: "API de Gestión de Películas y Reseñas",
+    date: "Junio 2024",
     description:
-      "The application is designed to assist in creating schedules by taking into account the availability of teachers, the required hours for each course, and the available classrooms. It formulates schedules for students, allowing them to select the courses they wish to take. The application uses genetic algorithms to optimize the timetable generation process, ensuring that all constraints and preferences are efficiently met for both faculty and students.",
+      "Desarrollé una API RESTful en Java con Spring Boot para administrar una base de datos de películas, permitiendo a los usuarios agregar, editar y calificar títulos. Implementé JWT para autenticación, asegurando un control de acceso seguro. Se crearon endpoints para búsquedas avanzadas por género, director y puntuación.",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNo1sUxeC03r0DUbopvvBrhqhLQ27coPbX6w&s",
+    tags: [
+      "Java",
+      "Spring Boot",
+      "PostgreSQL",
+      "JPA",
+      "JWT",
+      "REST API",
+    ],
+    category: "web app",
+    github: "https://github.com/JoseCuevaRamos/ForoHub",
+    webapp: "#",
+  },
+
+  {
+    id: 3,
+    title: "Chat Bot con Configuración Dinámica por Rol",
+    date: "Julio 2024",
+    description:
+      "Este proyecto permite configurar dinámicamente un chatbot con roles personalizados. Define un rol, responde preguntas específicas y obtén una experiencia de interacción adaptada a tus necesidades. Se basa en Streamlit y la API de Cohere para la generación de respuestas contextuales.",
+    image:
+      "https://www.cio.com/wp-content/uploads/2023/08/chatbot_ai_machine-learning_emerging-tech-100778305-orig.jpg?quality=50&strip=all&w=1024",
+    tags: [
+      "Streamlit",
+      "Cohere",
+      "Python",
+      "IA",
+    ],
+    category: "web app",
+    github: "https://github.com/JoseCuevaRamos/chat-bot-streamlit",
+    webapp: "#",
+  },
+
+  {
+    id: 4,
+    title: "Plataforma IoT para Recopilación y Presentación de Datos",
+    date: "Agosto 2024",
+    description:
+      "Desarrollé una plataforma web conectada a un dispositivo IoT para la recopilación y presentación de datos en tiempo real. La arquitectura del sistema se basa en servicios de AWS como Lambda, API Gateway y DynamoDB, garantizando escalabilidad y disponibilidad.",
+    image:
+      "https://tektelic.com/wp-content/uploads/38-IoT.svg",
+    tags: [
+      "AWS",
+      "IoT",
+      "Lambda",
+      "API Gateway",
+      "DynamoDB",
+      "JavaScript",
+      "React",
+      "Node.js",
+    ],
+    category: "web app",
+    github: "https://github.com/JoseCuevaRamos/buho",
+    webapp: "#",
+  },
+   {
+    id: 5,
+    title: "ICEYAKU (Aplicación Móvil)",
+    date: "Enero 2024 - Febrero 2024",
+    description:
+      "Aplicación para Android desarrollada con Expo Go y Firebase. La primera pantalla ofrece un resumen general de la aplicación y sus funcionalidades. La segunda se integra con Firebase para mostrar datos en tiempo real desde la base de datos. La tercera se enfoca en medidas de seguridad en caso de inundaciones, proporcionando instrucciones detalladas y rutas de escape para garantizar la seguridad del usuario. La aplicación combina funcionalidad con diseño centrado en el usuario, proporcionando una herramienta informativa y práctica.",
+    image:
+      "https://raw.githubusercontent.com/JoseCuevaRamos/Grupo_3_fundamentos/main/Software/gif-20240803-183021.gif",
+    tags: ["Java", "Android Studio", "Firebase", "Expo Go", "Arduino", "React-native"],
+    category: "android app",
+    github: "https://github.com/JoseCuevaRamos/Grupo_3_fundamentos",
+    webapp: "https://github.com/JoseCuevaRamos/Grupo_3_fundamentos/tree/main/Software",
+  },
+    {
+    id: 6,
+    title: "Aplicación de Programación Optimizada con Algoritmos Genéticos",
+    date: "Mayo 2024 - Junio 2024",
+    description:
+      "La aplicación ayuda a generar horarios considerando la disponibilidad de los profesores, las horas requeridas para cada curso y las aulas disponibles. Permite a los estudiantes seleccionar los cursos que desean tomar. Se implementó el uso de algoritmos genéticos para optimizar la generación de horarios, asegurando que se cumplan todas las restricciones y preferencias tanto de docentes como de alumnos.",
     image:
       "https://raw.githubusercontent.com/JoseCuevaRamos/Algoritmo_Horario/main/gif-20240804-004401.gif",
     tags: [
@@ -95,41 +156,26 @@ export const projects = [
     category: "web app",
     github: "https://github.com/JoseCuevaRamos/Algoritmo_Horario",
     webapp: "https://github.com/JoseCuevaRamos/Algoritmo_Horario",
-    member: [
-      {
-        name: "Jose Cueva",
-        img: "https://raw.githubusercontent.com/JoseCuevaRamos/pagina_personal/6598ef37a566b4531b107b7cb5a2d1b955ee4625/src/images/EHeroImage.jpg",
-        linkedin: "https://www.linkedin.com/in/jos%C3%A9-nilson-cueva-ramos-514032310/",
-        github: "https://github.com/JoseCuevaRamos",
-      },
-      {
-        name: "Josue Florian",
-        img: "https://media.licdn.com/dms/image/D4D03AQHFV1QynTDX4A/profile-displayphoto-shrink_200_200/0/1718255273190?e=1728518400&v=beta&t=OQt-iRP9l5UcXHP8rrhsfS0Ho6ActlPVgCeSU9ZVmSE ",
-        linkedin: "https://www.linkedin.com/in/josué-florián-b2029a27a/ ",
-        github: "https://github.com/JosueFlorian17",
-      },
+  },
     {
-      name: "Edwin Jara",
-      img: "https://media.licdn.com/dms/image/D4E03AQGPU6GPUj3r1g/profile-displayphoto-shrink_800_800/0/1718236420398?e=1728518400&v=beta&t=rNFDiMqogjmDbP2op68QO9huxL7LgdbCXl55E7A5rhs ",
-      linkedin: "https://www.linkedin.com/in/edwinjaraofc/ ",
-      github: "https://github.com/EdwinJaraOFC",
-    },
-    ],
-
-  },
-  {
     id: 7,
-    title: "ICEYAKU (movile app)",
-    date: "Jan 2024 - Feb 2024",
+    title: "Encriptador de Texto Alura",
+    date: "Julio 2024",
     description:
-      "A android app made with Expo Go and Firebase. The first page provides a comprehensive summary of the application, offering users an overview of its functionalities and features. The second page integrates with Firebase to display data from the database, allowing users to view real-time updates and information. The third page focuses on safety precautions in case of flooding, presenting detailed instructions and escape routes to ensure user safety. This multi-page application combines functionality with user-centric design, offering an informative and practical tool for its users.",
+      "Desarrollé una aplicación web que permite a los usuarios cifrar y descifrar texto utilizando JavaScript, HTML y CSS. La aplicación ofrece una interfaz intuitiva diseñada en Figma, permitiendo una interacción fluida. Los usuarios pueden ingresar texto, seleccionar un método de cifrado y ver la salida cifrada o descifrada en tiempo real. JavaScript se encarga de la funcionalidad principal, garantizando la seguridad y privacidad de los datos.",
     image:
-      "https://raw.githubusercontent.com/JoseCuevaRamos/Grupo_3_fundamentos/main/Software/gif-20240803-183021.gif",
-    tags: ["Java", "Android Studio", "Firebase", "Expo Go","Arduino","React-native"],
-    category: "android app",
-    github: "https://github.com/JoseCuevaRamos/Grupo_3_fundamentos",
-    webapp: "https://github.com/JoseCuevaRamos/Grupo_3_fundamentos/tree/main/Software",
+      "https://github.com/user-attachments/assets/693bf035-1f99-482f-9ac6-210904b0a5cf",
+    tags: [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Figma",
+    ],
+    category: "web app",
+    github: "https://github.com/JoseCuevaRamos/Alura_C1_encriptador",
+    webapp: "https://josecuevaramos.github.io/Alura_C1_encriptador/",
   },
+
 ];
 
 export const education = [
@@ -137,27 +183,29 @@ export const education = [
     id: 0,
     img: "https://intranet.upch.edu.pe/account/static/img/upch/logo/isotipo.jpg",
     school: "Universidad Peruana Cayetano Heredia (UPCH)",
-    date: "2022-now",
+    date: "2022 - Actualidad",
     grade: "--",
-    desc: "I am currently pursuing a Bachelor’s degree in Computer Engineering at Universidad Peruana Cayetano Heredia. My studies focus on developing skills in programming, database management, and leveraging modern technologies for software development. The curriculum covers both theoretical and practical aspects, equipping me to tackle challenges in data science, machine learning, and web development.",
-    degree: "Bachelor of Computer Engineering",
+    desc: "Actualmente curso la carrera de Ingeniería Informática en la Universidad Peruana Cayetano Heredia. Mis estudios se centran en el desarrollo de habilidades en programación, gestión de bases de datos y uso de tecnologías modernas para el desarrollo de software.",
+    degree: "Bachiller en Ingeniería Informática",
   },
+
+  {
+    id: 1,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnOVjTWaheo4E99cgYZ6y14tpsgHlm0VN8Hw&s",
+    school: "Oracle Next Education (ONE)",
+    date: "2024",
+    grade: "Backend con Java y Spring",
+    desc: "Participé en el programa de educación **Oracle Next Education (ONE)** con especialización en **desarrollo backend con Java y Spring**. Durante el programa, adquirí conocimientos en desarrollo de API REST, integración con bases de datos, patrones de diseño y buenas prácticas en Java.",
+    degree: "Especialización en Backend con Java y Spring",
+  },
+
   {
     id: 2,
     img: "https://upload.wikimedia.org/wikipedia/commons/f/fc/IBM_logo_in.jpg",
     school: "IBM/Coursera",
     date: "2023 - 2024",
     grade: "IBM Data Science Professional Certificate",
-    desc: "I completed the IBM Data Science Professional Certificate program on Coursera, which covered a range of topics in data science, machine learning, and Python programming. The program included courses on data analysis, data visualization, machine learning, and data science tools and libraries.",
-    degree: "Data Scientist",
-  },
-  {
-    id: 1,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc_S-M7BvflTJLGWc0TejLpNl2WE64l2AD_w&s",
-    school: "Instituto Cultural Peruano Norteamericano (ICPNA)",
-    date: "2018 - 2022",
-    grade: "Advanced",
-    desc: "I studied at the Instituto Cultural Peruano Norteamericano (ICPNA), where I focused on improving my English language skills. This program helped me achieve an advanced level of proficiency, which was essential for my academic and professional development. Through interactive classes and advanced educational resources, I expanded my vocabulary and improved my comprehension of the language, enabling me to communicate effectively in international contexts.",
-    degree: "",
+    desc: "Completé el programa IBM Data Science Professional Certificate en Coursera, donde adquirí conocimientos en ciencia de datos, aprendizaje automático y programación en Python.",
+    degree: "Científico de Datos",
   },
 ];
